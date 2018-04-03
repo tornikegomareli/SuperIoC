@@ -56,6 +56,14 @@ namespace IoCTests
 
             Assert.IsTrue(subject.Invoked);
         }
+
+        [Test]
+        public void ItAllowsGenericInitialization ()
+        {
+            var subject = Container.GetInstance<A>();
+            
+            Assert.IsInstanceOf<A>(subject);
+        }
         
         internal class A
         {
