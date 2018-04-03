@@ -143,4 +143,24 @@ namespace IoCTests
             }
         }
     }
+
+    [TestFixture]
+    public class Container_RegisterSingleton : ContainerTestBase
+    {
+        [Test]
+        public void ItReturnsASingleInstance ()
+        {
+            var pet = new Pet(); 
+            Container.RegisterSingleton(pet);
+
+            var subject = Container.GetInstance<Pet>();
+
+            Assert.AreEqual(pet, subject);
+        }
+
+        class Pet
+        {
+            
+        }
+    }
 }

@@ -21,6 +21,11 @@ namespace SuperIoC
         {
             return (T) GetInstance(typeof(T));
         }
+
+        public void RegisterSingleton<T>(T obj)
+        {
+            _registeredTypes.Add(typeof(T), () => obj);
+        }
         
         public object GetInstance(Type type)
         {
