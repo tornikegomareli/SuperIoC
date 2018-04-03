@@ -1,0 +1,16 @@
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/obj/Debug/IoCTests.csprojResolveAssemblyReference.cache
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/obj/Debug/IoCTests.csproj.CoreCompileInputs.cache
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/IoCTests.dll
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/IoCTests.pdb
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/FluentAssertions.dll
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/nunit.framework.dll
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/SuperIoC.dll
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/System.ValueTuple.dll
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/System.Xml.Linq.dll
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/SuperIoC.pdb
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/FluentAssertions.pdb
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/FluentAssertions.xml
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/System.ValueTuple.xml
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/bin/Debug/nunit.framework.xml
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/obj/Debug/IoCTests.dll
+/Users/tornike/RiderProjects/SuperIoC/IoCTests/obj/Debug/IoCTests.pdb

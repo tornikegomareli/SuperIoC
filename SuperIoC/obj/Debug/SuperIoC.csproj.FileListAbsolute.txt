@@ -1,0 +1,6 @@
+/Users/tornike/RiderProjects/SuperIoC/SuperIoC/bin/Debug/SuperIoC.dll
+/Users/tornike/RiderProjects/SuperIoC/SuperIoC/bin/Debug/SuperIoC.pdb
+/Users/tornike/RiderProjects/SuperIoC/SuperIoC/obj/Debug/SuperIoC.csprojResolveAssemblyReference.cache
+/Users/tornike/RiderProjects/SuperIoC/SuperIoC/obj/Debug/SuperIoC.csproj.CoreCompileInputs.cache
+/Users/tornike/RiderProjects/SuperIoC/SuperIoC/obj/Debug/SuperIoC.dll
+/Users/tornike/RiderProjects/SuperIoC/SuperIoC/obj/Debug/SuperIoC.pdb
