@@ -105,6 +105,17 @@ namespace IoCTests
             Assert.IsInstanceOf<Plastic>(subject);
         }
 
+
+        [Test]
+        public void InitializeObjectWithDependencies ()
+        {
+            Container.Register<IMaterial, Toy>();
+
+            var subject = (Toy) Container.GetInstance<IMaterial>();
+            
+            Assert.IsInstanceOf<Plastic>(subject.Material);
+        }
+
         interface IMaterial
         {
             int Weight { get; }
@@ -118,6 +129,18 @@ namespace IoCTests
         class Metal : IMaterial
         {
             public int Weight => 84;
+        }
+
+        class Toy : IMaterial
+        {
+            public int Weight => 100;
+            
+            public Plastic Material { get; set; } = null;
+
+            public Toy(Plastic plasticMaterial)
+            {
+                Material = plasticMaterial;
+            }
         }
     }
 }

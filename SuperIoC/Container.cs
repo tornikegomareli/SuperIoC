@@ -12,7 +12,7 @@ namespace SuperIoC
         
         
 
-        public void Register<TIn,TOut> ()
+        public void Register<TIn,TOut> () where TOut : TIn
         {
             _registeredTypes.Add(typeof(TIn), () => GetInstance(typeof(TOut)));
         }
