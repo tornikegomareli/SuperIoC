@@ -91,4 +91,33 @@ namespace IoCTests
         }
        
     }
+
+    [TestFixture]
+    public class Container_Register : ContainerTestBase
+    {
+        [Test]
+        public void RegisterATypeFromAnInterface ()
+        {
+            Container.Register<IMaterial, Plastic>();
+            
+            var subject = Container.GetInstance<IMaterial>();
+            
+            Assert.IsInstanceOf<Plastic>(subject);
+        }
+
+        interface IMaterial
+        {
+            int Weight { get; }
+        }
+
+        class Plastic : IMaterial
+        {
+            public int Weight => 42;
+        }
+
+        class Metal : IMaterial
+        {
+            public int Weight => 84;
+        }
+    }
 }
