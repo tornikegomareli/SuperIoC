@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b391f01e-2407-4e6e-b3fe-0d19e44f4206" name="Default" comment="" />
+    <list default="true" id="b391f01e-2407-4e6e-b3fe-0d19e44f4206" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.SuperIoC/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.SuperIoC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.SuperIoC/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IoCTests/ContainterTests.cs" afterPath="$PROJECT_DIR$/IoCTests/ContainterTests.cs" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,17 +31,20 @@
       <file leaf-file-name="ContainterTests.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IoCTests/ContainterTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+            <state relative-caret-position="281">
+              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
               <folding>
-                <marker date="1522784774022" expanded="true" signature="6:187" ph="..." />
-                <marker date="1522784774022" expanded="true" signature="208:862" ph="{...}" />
-                <marker date="1522784774022" expanded="true" signature="250:525" ph="{...}" />
-                <marker date="1522784774022" expanded="true" signature="346:407" ph="{...}" />
-                <marker date="1522784774022" expanded="true" signature="460:510" ph="{...}" />
-                <marker date="1522784774022" expanded="true" signature="603:860" ph="{...}" />
-                <marker date="1522784774022" expanded="true" signature="674:804" ph="{...}" />
-                <marker date="1522784774022" expanded="true" signature="821:854" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="6:187" ph="..." />
+                <marker date="1522785347537" expanded="true" signature="208:1253" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="250:525" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="346:407" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="460:510" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="603:1251" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="676:806" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="873:1017" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="1051:1084" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="1110:1245" ph="{...}" />
+                <marker date="1522785347537" expanded="true" signature="1184:1235" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -58,6 +65,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SuperIoC/Container.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,6 +94,7 @@
     <option name="width" value="1666" />
     <option name="height" value="976" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -252,12 +263,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522782968177</updated>
-      <workItem from="1522782971747" duration="1936000" />
+      <workItem from="1522782971747" duration="2288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1936000" />
+    <option name="totallyTimeSpent" value="2288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,14 +281,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1666" height="976" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19704433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33870968" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -327,17 +339,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IoCTests/ContainterTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        <state relative-caret-position="281">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
-            <marker date="1522784774022" expanded="true" signature="6:187" ph="..." />
-            <marker date="1522784774022" expanded="true" signature="208:862" ph="{...}" />
-            <marker date="1522784774022" expanded="true" signature="250:525" ph="{...}" />
-            <marker date="1522784774022" expanded="true" signature="346:407" ph="{...}" />
-            <marker date="1522784774022" expanded="true" signature="460:510" ph="{...}" />
-            <marker date="1522784774022" expanded="true" signature="603:860" ph="{...}" />
-            <marker date="1522784774022" expanded="true" signature="674:804" ph="{...}" />
-            <marker date="1522784774022" expanded="true" signature="821:854" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="6:187" ph="..." />
+            <marker date="1522785347537" expanded="true" signature="208:1253" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="250:525" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="346:407" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="460:510" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="603:1251" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="676:806" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="873:1017" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="1051:1084" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="1110:1245" ph="{...}" />
+            <marker date="1522785347537" expanded="true" signature="1184:1235" ph="{...}" />
           </folding>
         </state>
       </provider>
