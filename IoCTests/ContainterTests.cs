@@ -47,6 +47,15 @@ namespace IoCTests
             
             Assert.IsInstanceOf<A>(subject.A);
         }
+
+
+        [Test]
+        public void ItAllowsAParameterlessConstructor ()
+        {
+            var subject = (C) Container.GetInstance(typeof(C));
+
+            Assert.IsTrue(subject.Invoked);
+        }
         
         internal class A
         {
@@ -62,5 +71,16 @@ namespace IoCTests
                 A = a;
             }
         }
+
+        internal class C
+        {
+            public bool? Invoked { get; set; }
+
+            public C ()
+            {
+                Invoked = true;
+            }
+        }
+       
     }
 }
